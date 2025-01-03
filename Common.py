@@ -15,11 +15,11 @@ def get_input(isServer: bool):
     if file_name == "":
         #from input
         if isServer:
-            max_message_length = input("what is the maximum message length?")
+            max_message_length = input("what is the maximum message length? ")
         else:
-            message = input("what is the message?")
-            window_size = input("what is the window size?")
-            timeout = input("what is the timeout?")
+            message = input("what is the message? ")
+            window_size = input("what is the window size? ")
+            timeout = input("what is the timeout? ")
     else:
         #from file
         file = open(file_name, "r")
@@ -35,6 +35,6 @@ def get_input(isServer: bool):
             elif message != "":
                 message += line
     if isServer:
-        return {"max_message_length": max_message_length}
+        return {"max_message_length": int(max_message_length)}
     else:
-        return {"message": message, "window_size": window_size, "timeout": timeout}
+        return {"message": message, "window_size": int(window_size), "timeout": int(timeout)}
