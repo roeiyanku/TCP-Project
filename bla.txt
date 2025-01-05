@@ -1,4 +1,4 @@
 message:This is a test message
-maximum_msg_size:5
+maximum_msg_size:26
 window_size:3
 timeout:5

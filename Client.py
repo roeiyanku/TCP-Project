@@ -33,19 +33,24 @@ def send_messages(sock: socket, dictionary: dict,to_do_order_problem: bool):
     dictionary["time_start"] = time.time()
     #while dictionary["messages_sent"] < dictionary["messages_len"]:
     while dictionary["messages_acks"]==0 or dictionary["messages_acks"] < dictionary["messages_len"]:
-        #if dictionary["messages_sent"] >= len(messages):
-            #continue
+
         while dictionary["messages_sent"]>=dictionary["messages_len"] or dictionary["messages_sent"] - dictionary["messages_acks"] >= dictionary["window_size"]:
             #print(f"pass...last sent M{dictionary["messages_sent"]}, received ACK{dictionary["messages_acks"]}")
+
+
             time_passed=time.time() - dictionary["time_start"]
             if time_passed >= dictionary["timeout"]:
                 dictionary["messages_sent"] = dictionary["messages_acks"]
                 print(f"time reseted, send again from M{dictionary["messages_sent"]}")
                 dictionary["time_start"] = time.time()
             print("overflowed window size")
+            if dictionary["messages_acks"] >= dictionary["messages_len"]:
+                break
             #time.sleep(0.1)
+        if dictionary["messages_sent"] >= len(messages):
+            continue
 
-        #check_time
+        # check_time
         #if so -> messages_sent=messages_acks and time.reset
 
         time_passed = time.time() - dictionary["time_start"]
