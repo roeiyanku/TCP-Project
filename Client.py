@@ -8,7 +8,7 @@ import time
 # ://www.geeksforgeeks.org/python-time-module/
 # how in python to auto close socket when program finish
 def receive_messages(sock: socket, dictionary: dict,):
-    while dictionary["messages_acks"]==0 or dictionary["messages_acks"] < dictionary["messages_len"]:
+    while dictionary["messages_acks"] < dictionary["messages_len"]:
         time_acks_new=""
         char=""
         while True:
@@ -23,8 +23,8 @@ def receive_messages(sock: socket, dictionary: dict,):
         # if receive new higher acks ->reset time
         if time_acks_new >= dictionary["messages_acks"]:
             dictionary["time_start"] = time.time()
-            dictionary["messages_acks"] = time_acks_new
-            print(f"ACK{time_acks_new - 1} received")
+            dictionary["messages_acks"] = time_acks_new+1
+            print(f"ACK{time_acks_new} received")
 
 
 def send_messages(sock: socket, dictionary: dict,to_do_order_problem: bool):
@@ -32,7 +32,7 @@ def send_messages(sock: socket, dictionary: dict,to_do_order_problem: bool):
     #for checking => if time.time()-start_time>=dictionary["timeout"]
     dictionary["time_start"] = time.time()
     #while dictionary["messages_sent"] < dictionary["messages_len"]:
-    while dictionary["messages_acks"]==0 or dictionary["messages_acks"] < dictionary["messages_len"]:
+    while dictionary["messages_acks"] < dictionary["messages_len"]:
 
         while dictionary["messages_sent"]>=dictionary["messages_len"] or dictionary["messages_sent"] - dictionary["messages_acks"] >= dictionary["window_size"]:
             #print(f"pass...last sent M{dictionary["messages_sent"]}, received ACK{dictionary["messages_acks"]}")

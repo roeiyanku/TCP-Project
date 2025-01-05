@@ -28,7 +28,7 @@ def start_server(to_do_timeout_problem: bool):
 
     # while server is open:
 
-    ack = 0
+    acks = 0
     stop=False
     while True:
         #whole_segment = conn.recv(1024).decode()
@@ -56,13 +56,13 @@ def start_server(to_do_timeout_problem: bool):
 
         segments[segment_num] = segment
         #ack=0
-        if segment_num == ack:
-            while ack in segments.keys():
-                print(f"found seg{ack}")
-                ack += 1
-            #ack -= 1
-            conn.sendall(f"ACK{ack}:".encode())
-            print(f"Sent ACK{ack} for segment {segment_num}")
+        while acks in segments.keys():
+            print(f"found seg{acks}")
+            acks += 1
+        #ack -= 1
+        if acks>0:
+            conn.sendall(f"ACK{acks-1}:".encode())
+            print(f"Sent ACK{acks-1} for segment {segment_num}")
             
             
 
@@ -70,7 +70,7 @@ def start_server(to_do_timeout_problem: bool):
     print("Connection closed.")
     str_result = ""
     #print(segments)
-    for i in range(ack):
+    for i in range(acks):
         print(i)
         str_result = str_result+segments[i]
     print(str_result)
