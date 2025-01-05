@@ -7,7 +7,7 @@ def get_params_from_file():
     fileStr = file.read(1024)
 
 
-def start_server():
+def start_server(to_do_timeout_problem: bool):
     host = '127.0.0.1'
     port = 11111
     segments = {}
@@ -20,7 +20,7 @@ def start_server():
     conn, addr = server_socket.accept()
     print(f"connection established with {addr}")
 
-    message = conn.recv(1024).decode()
+    message = conn.recv(1).decode()
     settings = get_input(isServer=True)
     maximum_msg_size = settings.get("max_message_length")
     response = f"{maximum_msg_size}"
@@ -29,17 +29,31 @@ def start_server():
     # while server is open:
 
     ack = 0
-
+    stop=False
     while True:
-        whole_segment = conn.recv(1024).decode()
-        if not whole_segment:
-            #print("end")
+        #whole_segment = conn.recv(1024).decode()
+        start_of_message=""
+        segment=""
+        first=conn.recv(1).decode()
+        if not first:
+            conn.close()
             break
-        start_of_message = int(whole_segment.find(":")) + 1
-        #print(start_of_message)
-        segment_num = int(whole_segment[1:start_of_message - 1])
-        segment = whole_segment[start_of_message:]
+        while True:
+            received = conn.recv(1).decode()
+
+            if received==":":
+                break
+            else:
+                start_of_message += received
+        segment_num=int(start_of_message)
+        segment=conn.recv(maximum_msg_size).decode()
+
+
         print(f"segment num: {segment_num}")
+        if to_do_timeout_problem and segment_num==2:
+            to_do_timeout_problem=False
+            continue
+
         segments[segment_num] = segment
         #ack=0
         if segment_num == ack:
@@ -47,12 +61,12 @@ def start_server():
                 print(f"found seg{ack}")
                 ack += 1
             #ack -= 1
-            conn.sendall(f"ACK{ack-1}".encode())
-            print(f"Sent ACK{ack-1} for segment {segment_num}")
+            conn.sendall(f"ACK{ack}:".encode())
+            print(f"Sent ACK{ack} for segment {segment_num}")
             
             
 
-    #conn.close()
+    conn.close()
     print("Connection closed.")
     str_result = ""
     #print(segments)
@@ -61,5 +75,4 @@ def start_server():
         str_result = str_result+segments[i]
     print(str_result)
 
-
-start_server()
+start_server(True)

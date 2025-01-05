@@ -4,78 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bla.txt" afterDir="false" />
+    <list default="true" id="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TCP-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TCP-Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
     </list>
-    <list id="0d01a53d-576f-4659-93a8-67733041ff01" name="Changes by vinte" comment="">
+    <list id="f14d7af7-08f5-4bfa-93dc-f3cfd5ad1023" name="Changes by famen" comment="">
       <change beforePath="$PROJECT_DIR$/Client.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Common.py">
+    <file path="$PROJECT_DIR$/Client.py">
       <ranges>
-        <range start1="17" end1="18" start2="17" end2="18" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="19" end1="22" start2="19" end2="22" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="37" end1="38" start2="37" end2="38" changelist="0d01a53d-576f-4659-93a8-67733041ff01" />
-        <range start1="39" end1="40" start2="39" end2="40" changelist="0d01a53d-576f-4659-93a8-67733041ff01" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/Server.py">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="4" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="4" end1="6" start2="5" end2="7" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="8" end1="9" start2="9" end2="10" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="11" end1="12" start2="12" end2="13" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="16" end1="17" start2="17" end2="17" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="23" end1="24" start2="23" end2="24" changelist="0d01a53d-576f-4659-93a8-67733041ff01" />
-        <range start1="31" end1="31" start2="31" end2="32" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="33" end1="41" start2="34" end2="45" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="42" end1="47" start2="46" end2="55" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="48" end1="81" start2="56" end2="62" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="82" end1="83" start2="63" end2="63" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
-        <range start1="84" end1="88" start2="64" end2="65" changelist="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" />
+        <range start1="8" end1="8" start2="8" end2="9" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="9" end1="12" start2="10" end2="21" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="14" end1="15" start2="23" end2="24" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="20" end1="22" start2="29" end2="30" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="25" end1="29" start2="33" end2="46" changelist="f14d7af7-08f5-4bfa-93dc-f3cfd5ad1023" />
+        <range start1="33" end1="34" start2="50" end2="54" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="36" end1="36" start2="56" end2="58" changelist="f14d7af7-08f5-4bfa-93dc-f3cfd5ad1023" />
+        <range start1="38" end1="42" start2="60" end2="65" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="52" end1="57" start2="75" end2="80" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="58" end1="67" start2="81" end2="90" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="68" end1="69" start2="91" end2="92" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="70" end1="72" start2="93" end2="95" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="73" end1="77" start2="96" end2="100" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="78" end1="79" start2="101" end2="102" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="80" end1="83" start2="103" end2="106" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="84" end1="85" start2="107" end2="108" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="86" end1="93" start2="109" end2="116" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="94" end1="95" start2="117" end2="117" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
+        <range start1="96" end1="101" start2="118" end2="123" changelist="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" />
       </ranges>
     </file>
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2qyn2fMo3A1195Sdu3sMLb5nuvG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2rDKrkTrF7humEnA1HHbgr1KSed" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.Client.executor": "Run",
-    "Python.Common.executor": "Run",
     "Python.Server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Python.Client">
@@ -92,29 +87,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Common" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TCP-Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -147,42 +122,64 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Server" />
         <item itemvalue="Python.Client" />
-        <item itemvalue="Python.Common" />
+        <item itemvalue="Python.Server" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fcb5f8e3-5b28-4c02-9293-c06e154f8b0f" name="Changes" comment="" />
-      <created>1735643480720</created>
+      <changelist id="78d9ae3a-1a7e-49d8-8263-ef0b31f2bc70" name="Changes" comment="" />
+      <created>1736088408139</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735643480720</updated>
+      <updated>1736088408139</updated>
+      <workItem from="1736088409946" duration="4858000" />
+      <workItem from="1736093319953" duration="7092000" />
+      <workItem from="1736103351975" duration="3954000" />
     </task>
-    <task id="LOCAL-00001" summary="First Commit">
-      <option name="closed" value="true" />
-      <created>1735762930646</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1735762930646</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Client.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Client.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Client.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Client.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TCP_Project$Client.coverage" NAME="Client Coverage Results" MODIFIED="1736107475012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TCP_Project$Server.coverage" NAME="Server Coverage Results" MODIFIED="1736107471697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
